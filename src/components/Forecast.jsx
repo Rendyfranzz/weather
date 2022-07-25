@@ -18,7 +18,7 @@ function Forecast({ title, items }) {
             key={index}
             className="flex flex-col items-center justify-center"
           >
-            <p className="font-light text-sm">{item.title}</p>
+            <p className="font-light text-xs md:text-base">{item.title}</p>
             <img
               src={iconUrlFromCode(item.icon)}
               className=" w-16 my-1"
